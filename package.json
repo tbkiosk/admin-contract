@@ -8,7 +8,8 @@
     "compile": "hardhat compile",
     "node": "hardhat node",
     "deploy:admin": "hardhat run scripts/deploy-admin.ts --network sepolia",
-    "deploy:mock": "hardhat run scripts/deploy-mock.ts --network sepolia"
+    "deploy:mock": "hardhat run scripts/deploy-mock.ts --network sepolia",
+    "deploy:faucet": "hardhat run scripts/deploy-faucet.ts --network sepolia"
   },
   "keywords": [],
   "author": "",
